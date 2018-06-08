@@ -1,0 +1,35 @@
+{
+  "name": "electron-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build",
+    "pack": "build --dir"
+  },
+  "build": {
+    "appId": "redsanalyticssuite",
+    "win": {
+      "target": "NSIS",
+      "icon": "build/test.ico"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevthomas10/electron-starter.git"
+  },
+  "author": "Kevin Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevthomas10/electron-starter/issues"
+  },
+  "homepage": "https://github.com/kevthomas10/electron-starter#readme",
+  "dependencies": {
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "electron-builder": "^20.15.1"
+  }
+}
